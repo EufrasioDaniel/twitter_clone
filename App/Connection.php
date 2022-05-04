@@ -8,7 +8,7 @@ class Connection {
 		try {
 
 			$conn = new \PDO( //Quando se utiliza de recursos nativos do php, precisa indicar com a '\'
-				"mysql:host=localhost;dbname=mvc;charset=utf8",
+				"mysql:host=localhost;dbname=twitter_clone;charset=utf8",
 				"root",
 				"" 
 			);
