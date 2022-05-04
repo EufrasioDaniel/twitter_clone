@@ -58,6 +58,11 @@
 				'route' => '/acao',
 				'controller' => 'AppController',
 				'action' => 'acao'
+			);			
+			$routes['removerTweet'] = array(
+				'route' => '/remover_tweet',
+				'controller' => 'AppController',
+				'action' => 'removerTweet'
 			);
 			
 			
